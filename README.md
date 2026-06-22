@@ -10,16 +10,14 @@ This project builds and evaluates multiple predictive models for NCAA March Madn
 
 - **LightGBM** — gradient boosting with Elo ratings as features
 - **XGBoost** — gradient boosting baseline and tuned variants
-- **Logistic Regression** — linear baseline model
 - **Random Forest** — ensemble tree baseline
-- **AutoGluon** — automated ML ensemble
 - **Elo Rating System** — standalone Elo model and feature for ensemble methods
 
 ## Key Files
 
 | File | Description |
 |------|-------------|
-| `all in.ipynb` | Main pipeline: feature engineering, model training, and final prediction generation |
+| `final model 2025.ipynb` | Main pipeline: feature engineering, model training, and final prediction generation |
 | `EDA.ipynb` | Exploratory data analysis of historical NCAA game data |
 | `elo.ipynb` | Elo rating system implementation |
 | `final submission.ipynb` | Final submission notebook |
@@ -51,4 +49,4 @@ jupyter
 
 ## Usage
 
-Open `all in.ipynb` in Jupyter and run all cells. Kaggle competition data should be placed in the working directory.
+Open `final model.ipynb` in Jupyter and run all cells. Kaggle competition data should be placed in the working directory.
